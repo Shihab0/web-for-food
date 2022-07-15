@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --pure: #fcf1f1;
+    --gold: #E68026;
+    --dark: #403d3d;
+}
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.top-section {
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url(images/top-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--pure);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover a {
+    border-bottom: 3px solid var(--gold);
+}
+
+.top-display{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.slogan {
+    color: var(--pure);
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 5px;
+}
+
+.btn{
+    padding: 15px 35px;
+    border-radius: 20px;
+    background: var(--gold);
+    color: var(--pure);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 35px;
+    border: 2px solid var(--gold);
+    cursor: pointer;
+}
+.cool-btn{
+    padding: 15px 35px;
+    border-radius: 20px;
+    background: transparent;
+    color: var(--gold);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 35px;
+    border: 2px solid var(--gold);
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.cool-btn:hover {
+    background-color: var(--gold);
+    color: var(--pure);
+}
+
+/* Quality Section */
+
+.discription {
+    text-align: center;
+    margin-top: 50px;
+}
+.discription hr { 
+    margin: 20px 40%;
+    border: 0;
+    border-top: 3px solid var(--gold);
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: var(--dark);
+}
+
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: var(--dark);
+}
+
+.flex-discription{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-discription .card {
+    width: 20%;
+    border: 1px solid var(--gold);
+    border-radius: 20px;
+    background-color: #fdfafa;
+    padding: 15px 10px;
+}
+
+.flex-discription .card i{
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: var(--gold);
+}
+
+h3 {
+    color: var(--dark);
+}
+
+
+
+
+
+
